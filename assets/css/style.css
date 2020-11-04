@@ -323,3 +323,36 @@ header {
 .section-projects--photo {
   width: 280px;
 }
+
+
+.section-projects--photoarea {
+  margin: 10px;
+  width: 260px;
+  height: 160px;
+}
+
+.section-projects--photoarea img {
+  width: inherit;
+  height: inherit;
+}
+
+.section-projects--info {
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+  width: inherit;
+  height: inherit;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
+
+.section-projects--info h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.section-projects--photoarea:hover .section-projects--info {
+  display: flex;
+}
