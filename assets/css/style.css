@@ -309,3 +309,17 @@ header {
 .section-projects--filters li:first-child {
   border-left: 0px;
 }
+
+
+.section-projects--photos {
+  width: 100vw;
+  max-width: 1140px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section-projects--photo {
+  width: 280px;
+}
