@@ -356,3 +356,16 @@ header {
 .section-projects--photoarea:hover .section-projects--info {
   display: flex;
 }
+
+.bg-team {
+  background: url('../images/bg.jpg');
+  background-position: center;
+  background-size:cover;
+  padding: 0;
+}
+
+.section-team-area {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
