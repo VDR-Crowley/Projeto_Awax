@@ -458,3 +458,91 @@ header {
 .section-team--social a:hover {
   background-color: #B28756;
 }
+
+
+/*
+  Section de review do client
+*/
+
+.section-client--review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-client--photo {
+  width: 170px;
+}
+
+.section-client--title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.section-client-desc {
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.section-client--quote {
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+
+.section-client--review p{
+  text-align: center;
+  line-height: 30px;
+  color: #444;
+}
+
+.section-client--review {
+  overflow: hidden;
+  max-width: 880px;
+  margin: auto;
+}
+
+.section-client--review .sliders {
+  width: 1000vw;
+  height: 100%;
+}
+
+.section-client--review .slide {
+  width: 280px;
+  height: 100%;
+  display: inline-block;
+  background-color: #FFF;
+  margin-right: 20px;
+}
+
+.section-client--review .slidearea {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.section-client--area .sliders-pointers {
+  margin-top: 30px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-client--area .pointer {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #B28756;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.section-client--area .pointer.active {
+  background-color: #B28756;
+}
