@@ -546,3 +546,24 @@ header {
 .section-client--area .pointer.active {
   background-color: #B28756;
 }
+
+/*
+  Section de patrocinio das empresas
+*/
+.default.extra-light {
+  background-color: #FFF;
+  border: 1px solid #BBB;
+}
+
+.section-empresas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+}
+
+.section-empresas img {
+  width: 105px;
+  height: 55px;
+  margin: 5px 40px;
+}
