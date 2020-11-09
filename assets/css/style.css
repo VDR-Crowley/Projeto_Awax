@@ -913,7 +913,6 @@ footer {
 
 .footer-area1 {
   justify-content: space-around;
-  padding-top: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -958,4 +957,56 @@ footer {
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
+}
+
+.footer-area2 {
+  display: flex;
+  color: #FFF;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+
+.footer-area3{
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-area3 form{
+  width: 300px;
+  padding: 30px;
+  background: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-area3 label input{
+  width: 180px;
+  font-size: 18px;
+  color: #999;
+  padding: 20px;
+  background-color: #333;
+  border:none;
+  border-bottom: 1px solid #999;
+}
+
+.footer-area input::placeholder {
+  color: #CCC;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-area3 form a {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 25px auto 15px;
+}
+
+input:focus {
+  border: none;
+  border-bottom: 1px solid #999;
 }
