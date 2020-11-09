@@ -912,14 +912,13 @@ footer {
 }
 
 .footer-area1 {
-  justify-content: space-around;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .footer-area-item {
   display: flex;
-  align-items: flex-start;
 }
 
 .footer-social {
@@ -953,7 +952,6 @@ footer {
 
 .footer-copy {
   display: flex;
-  align-items: flex-end;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -1009,4 +1007,34 @@ footer {
 input:focus {
   border: none;
   border-bottom: 1px solid #999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+  Responsividade para tablet
+*/
+
+@media (min-width: 450px) and (max-width: 800px) {
+
+  nav {
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 70vw;
+    height: calc(100vh - 100px);
+    top: 100px;
+    right: 0;
+  }
 }
