@@ -1107,6 +1107,52 @@ input:focus {
     max-width: 580px;
   }
 
+  .section-projects--photos {
+    align-items: center;
+  }
+
+  .section-empresas {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .section-empresas img:nth-child(5),
+  .section-empresas img:nth-child(6) {
+    margin-top: 50px;
+  }
+
+  .section-price--area {
+    flex-wrap: wrap;  
+  }
+
+  .section-price {
+    margin-bottom: 30px;
+    margin-right: auto;
+  }
+
+  .section-premium {
+    flex-direction: column;
+  }
+
+  .section-premium .img-premium {
+    margin-right: 0;
+  }
+
+  .section-premium--info {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+
+  .section-facts--area {
+    flex-wrap: wrap;
+  }
+
+  .section-facts {
+    width: 280px;
+    margin-top: 50px;
+    margin-left: 0;
+  }
+
   .section-map { 
     padding-left: 30px;
     padding-right: 30px;
@@ -1127,4 +1173,33 @@ input:focus {
   .section-map--info-item:last-child {
     margin-bottom: 0;
   }
+
+  .footer-area {
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-area1 {
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+  .footer-copy {
+    padding-left: 10px;
+    margin-top: 80px;
+  } 
+
+  .footer-area2 {
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 30px;
+  }
+
+  .footer-area3 {
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+
+
+
 }
