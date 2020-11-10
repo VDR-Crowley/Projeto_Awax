@@ -4,6 +4,16 @@ Layout pego no site [behance](https://www.behance.net/)
 Objetivo desse projeto é de praticar meus conhecimentos em html/css.
 <br>
 
+
+#### Images do Layout behance
+
+### Layout DESKTOP
+> LAYOUT_DESKTOP.jpg
+<br>
+
+### Layout MOBILE
+> LAYOUT_MOBILE.jpg
+
 #### Tecnologias
 > HTML
 > 
@@ -12,22 +22,55 @@ Objetivo desse projeto é de praticar meus conhecimentos em html/css.
 > JAVASCRIPT
 <br>
 
-#### Images do Layout behance
-
-### Layout DESKTOP
+#### Image da responsividade do projeto
+Layout totalmente responsivo, se comportando bem em celulares, tablet e desktop.
 <br>
 
-<p align="center"> 
-  <img src="./LAYOUT_DESKTOP.jpg">
-</p>
-<br>
+<div align="center">
+  <h3>Layout Mobile</h3>
+  <small>Algumas imagens</small>
+  <br><br>
+  <img src="./images_project/mobile.png" width="250" style="border: 2px solid #000">
+  <br><br>
+  <img src="./images_project/mobile2.png" width="250" style="border: 2px solid #000">
+  <br><br>
+  <img src="./images_project/mobile3.png" width="250" style="border: 2px solid #000">
+  <br><br>
+  <img src="./images_project/mobile4.png" width="250" style="border: 2px solid #000">
+  <br><br>
+  <img src="./images_project/mobile5.png" width="250" style="border: 2px solid #000">
+</div>
 
-### Layout MOBILE
-<br>
+<br><br><br>
 
-<p align="center"> 
-  <img src="./LAYOUT_MOBILE.jpg">
-</p>
+<div align="center">
+  <h3>Layout Tablet</h3>
+  <small>Algumas imagens</small>
+  <br><br>
+  <img src="./images_project/tablet.png" width="400" style="border: 2px solid #000">
+<br><br>
+  <img src="./images_project/tablet2.png" width="400" style="border: 2px solid #000">
+<br><br>
+  <img src="./images_project/tablet3.png" width="400" style="border: 2px solid #000">
+<br><br>
+  <img src="./images_project/tablet4.png" width="400" style="border: 2px solid #000">
+
+</div>
+
+<br><br><br>
+
+<div align="center">
+  <h3>Layout Desktop</h3>
+  <small>Algumas imagens</small>
+  <br><br>
+  <img src="./images_project/desktop.png" width="500" style="border: 2px solid #000">
+  <br><br>
+  <img src="./images_project/desktop2.png" width="500" style="border: 2px solid #000">
+  <br><br>
+  <img src="./images_project/desktop3.png" width="500" style="border: 2px solid #000">
+  <br><br>
+  <img src="./images_project/desktop4.png" width="500" style="border: 2px solid #000">
+</div>
 
 <br><br>
 
