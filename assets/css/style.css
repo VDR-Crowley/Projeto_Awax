@@ -1176,20 +1176,25 @@ input:focus {
 
   .footer-area {
     height: 100%;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: column-reverse;
+    align-items: center;
   }
 
   .footer-area1 {
+    /*
     padding-left: 10px;
-    margin-top: 10px;
+    margin-top: 10px;*/
+    margin: auto;
+    padding-top: 20px;
   }
   .footer-copy {
-    padding-left: 10px;
-    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: auto;
   } 
 
   .footer-area2 {
+    text-align: center;
     margin-left: 10px;
     margin-top: 30px;
     margin-right: 30px;
